@@ -1,0 +1,20 @@
+inp
+sta max
+lda 1
+sta first
+sta second
+out
+out
+loop: lda max
+sub first
+sub second
+brp cont
+bra exit
+cont: lda first
+add second
+out
+sta second
+sub first
+sta first
+bra loop
+exit: hlt
