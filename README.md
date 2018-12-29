@@ -15,4 +15,5 @@ Emulating little man computer
 </ol>
 <br/>
 LMC.circ - model in Logisim 
+<br/>
 main.py - simple compiler
