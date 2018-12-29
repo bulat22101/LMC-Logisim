@@ -1,7 +1,7 @@
 # LMC-Logisim
 Emulating little man computer 
-
-Supported operations
+<br/>
+<br/>Supported operations
 add 10xxxx add the value stored at xxxx to whatever value is currently on the accumulator
 sub 20xxxx subtract the value stored at xxxx from whatever value is currently on the accumulator
 sta 30xxxx store the contents of the accumulator at xxxx
