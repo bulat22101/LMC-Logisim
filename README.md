@@ -10,8 +10,8 @@ Emulating little man computer
 <li>bra 60xxxx set the program counter to the given address</li>
 <li>brz 70xxxx if the accumulator contains the value 000000, set the program counter to the value xxxx</li>
 <li>brp 80xxxx if the accumulator contains the value >=0, set the program counter to the value xxxx</li>
-<li>inp 900000 add value stored at xxxx input accumulator value</li>
-<li>out a00000 add value stored at xxxx output accumulator value</li>
+<li>inp 900000 input accumulator value</li>
+<li>out a00000 output accumulator value</li>
 </ol>
 <br/>
 LMC.circ - model in Logisim 
